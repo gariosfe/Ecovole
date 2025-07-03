@@ -1,0 +1,112 @@
+/* futbol.css - diseño deportivo */
+
+.futbol-container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.tiempo-box {
+  background: linear-gradient(to right, #0f172a, #1e293b);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+  margin: 0 auto 3rem;
+  max-width: 500px;
+  color: #facc15;
+  border: 3px solid #facc15;
+}
+
+.tiempo-box .reloj {
+  font-size: 3.5rem;
+  font-family: monospace;
+  margin-bottom: 1rem;
+}
+
+.tiempo-box .botones button {
+  margin: 0.5rem;
+  padding: 0.6rem 1.5rem;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tiempo-box .botones button:hover {
+  transform: scale(1.05);
+}
+
+.puntaje-section {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.equipo-card {
+  background: linear-gradient(to bottom right, #1e3a8a, #2563eb);
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 250px;
+  color: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  border: 3px solid white;
+  position: relative;
+}
+
+.equipo-card h3 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.equipo-card .puntos {
+  font-size: 4.5rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+}
+
+.equipo-card .botones {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.equipo-card button {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #facc15;
+  color: #1e293b;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.equipo-card button:hover {
+  background-color: #eab308;
+}
+
+.equipo-input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.equipo-input:focus {
+  outline: 2px solid #facc15;
+  background-color: rgba(255, 255, 255, 0.15);
+}

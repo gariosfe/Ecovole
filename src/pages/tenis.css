@@ -1,0 +1,121 @@
+.tenis-container {
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titulo-tenis {
+  font-size: 2.5rem;
+  color: #3b82f6; /* azul brillante */
+  margin-bottom: 2rem;
+  font-weight: 700;
+  text-shadow: 1px 1px 5px #1e40af;
+}
+
+.jugadores {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.jugador-input {
+  font-size: 1.3rem;
+  padding: 0.4rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  text-align: center;
+  max-width: 200px;
+}
+
+.games-ganados {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.puntos-game {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.puntos-individual {
+  width: 100px;
+}
+
+.ganador {
+  color: #22c55e; /* verde */
+  text-shadow: 0 0 10px #22c55e;
+}
+
+.botones-puntos button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.7rem 1.5rem;
+  margin: 0 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.botones-puntos button:hover:not(:disabled) {
+  background-color: #1e40af;
+}
+
+.reiniciar-game {
+  margin-top: 1.5rem;
+  background-color: #22c55e;
+  border: none;
+  padding: 0.7rem 2rem;
+  border-radius: 0.6rem;
+  font-weight: 700;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.25s ease;
+}
+
+.reiniciar-game:hover {
+  background-color: #15803d;
+}
+
+.sets-ganados, .games-ganados {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.mensaje-final {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #22c55e;
+  font-weight: 700;
+}
+
+.reiniciar-partido {
+  margin-top: 1rem;
+  padding: 0.7rem 2rem;
+  background-color: #10b981;
+  border: none;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+  transition: background-color 0.25s ease;
+}
+
+.reiniciar-partido:hover {
+  background-color: #0f766e;
+}
