@@ -5,7 +5,7 @@
 }
 
 .header-container {
-  max-width: 1280px; /* igual a max-w-7xl */
+  max-width: 1500px; /* igual a max-w-7xl */
   margin: 0 auto;
   padding: 1rem 2rem;
   display: flex;

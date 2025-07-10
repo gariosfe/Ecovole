@@ -14,13 +14,14 @@
   text-shadow: 2px 2px 4px #065f46;
 }
 
+/* Cronómetro */
 .tiempo-box {
   background: linear-gradient(90deg, #064e3b, #10b981);
   padding: 2rem;
   border-radius: 1rem;
   margin: 0 auto 2rem;
   max-width: 500px;
-  color: #d1fae5; /* verde claro */
+  color: #d1fae5;
   border: 4px solid #6ee7b7;
   box-shadow: 0 6px 20px rgba(16, 185, 129, 0.6);
 }
@@ -32,8 +33,14 @@
   font-weight: 700;
 }
 
+.tiempo-box .botones {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
 .tiempo-box .botones button {
-  margin: 0.5rem;
+  margin: 0.5rem 0;
   padding: 0.6rem 1.5rem;
   border-radius: 0.6rem;
   font-weight: 700;
@@ -48,16 +55,18 @@
   transform: scale(1.05);
 }
 
+/* Nombres de equipos */
 .puntaje-section {
   display: flex;
   justify-content: center;
   gap: 3rem;
   flex-wrap: wrap;
+  margin-top: 2rem;
 }
 
 .equipo-card {
   background: #065f46;
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 1rem;
   width: 250px;
   color: #d1fae5;
@@ -75,58 +84,10 @@
   border-radius: 0.5rem;
   background-color: rgba(255, 255, 255, 0.1);
   color: #d1fae5;
-  margin-bottom: 1.2rem;
   transition: background-color 0.3s ease;
 }
 
 .equipo-input:focus {
   outline: 3px solid #34d399;
   background-color: rgba(255, 255, 255, 0.2);
-}
-
-.puntos {
-  font-size: 4rem;
-  font-weight: 900;
-  margin-bottom: 1.5rem;
-}
-
-.botones {
-  display: flex;
-  justify-content: space-around;
-}
-
-.botones button {
-  background-color: #34d399;
-  color: #065f46;
-  font-weight: 700;
-  padding: 0.6rem 1.2rem;
-  border-radius: 0.6rem;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.botones button:hover {
-  background-color: #22c55e;
-}
-
-.sets-ganados {
-  display: flex;
-  justify-content: center;
-  gap: 3rem;
-  margin-bottom: 1rem;
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: #34d399; /* verde */
-}
-
-.mensaje-set-terminado {
-  margin-top: 2rem;
-  background-color: #166534; /* verde oscuro */
-  color: #bbf7d0;
-  padding: 1rem 2rem;
-  border-radius: 0.7rem;
-  font-weight: 700;
-  text-align: center;
-  box-shadow: 0 4px 15px rgba(22, 101, 52, 0.7);
 }
